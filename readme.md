@@ -6,6 +6,8 @@ All course contents are CCBY.
 
 Textbooks:
 
+All book references are for Zelle, Python for Everyone chapters are marked with PfE.
+
 1.	Zelle, John. (2010). Python Programming: an introduction to computer science.  (SECOND edition).  Franklin, Beedle & Associates Inc.
 2.	Python for Everyone (http://pythonlearn.com/book.php and https://books.trinket.io/pfe/index.html) This a free book available online or for purchase.  These chapters are optional and meant to provide additional information and context if desired.
 
