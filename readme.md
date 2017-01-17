@@ -14,8 +14,8 @@ Textbooks:
 Intro
 
 * Read: Chapter 2 
-Read and install stuff
-Optionally read Chapter 1 for tech refresher
+* Read and install stuff
+* Optionally read Chapter 1 for tech refresher
 
 ## Week 2 - Jan 23-27
 
