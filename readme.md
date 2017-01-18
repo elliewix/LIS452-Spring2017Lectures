@@ -2,6 +2,8 @@
 
 Mostly for my students to access, my ability to fork this later, and for anyone wishing to follow along at home.  This is an introduction to programming course for library and information science and information management graduate students at the Illinois iSchool.
 
+Class sessions are on Wednesday evenings, so updated lecture notebooks can be expected sometime then.  You'll see me crafting outlines and stub files until class time.
+
 All course contents are CCBY. 
 
 Textbooks:
