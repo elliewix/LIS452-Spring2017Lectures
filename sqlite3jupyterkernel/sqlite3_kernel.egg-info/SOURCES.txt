@@ -1,0 +1,10 @@
+README.rst
+setup.py
+sqlite3_kernel/__init__.py
+sqlite3_kernel/__main__.py
+sqlite3_kernel/install.py
+sqlite3_kernel/kernel.py
+sqlite3_kernel.egg-info/PKG-INFO
+sqlite3_kernel.egg-info/SOURCES.txt
+sqlite3_kernel.egg-info/dependency_links.txt
+sqlite3_kernel.egg-info/top_level.txt

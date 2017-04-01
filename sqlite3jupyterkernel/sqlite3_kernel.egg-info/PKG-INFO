@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: sqlite3-kernel
+Version: 1.0
+Summary: SQLite3 Jupyter Kernel
+Home-page: https://github.com/brownan/sqlite3_kernel
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: IPython
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: SQL
