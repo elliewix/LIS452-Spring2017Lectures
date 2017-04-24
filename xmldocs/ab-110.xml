@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?oxygen RNGSchema="http://jetson.unl.edu/cdrh/schemas/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ab-110">
+    
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>A New Ecological Model for Learning</title>
+<author>
+<name><surname>Cenkl</surname>, <forename>Pavel Thomas</forename></name>
+<affiliation>Sterling College, United States of America</affiliation>
+<email>pcenkl@sterlingcollege.edu</email>
+</author>
+</titleStmt>
+<publicationStmt>
+<authority></authority>
+<publisher>University of Nebraska-Lincoln</publisher>
+<distributor>
+<name>Center for Digital Research in the Humanities</name>
+<address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>cdrh@unlnotes.unl.edu</addrLine>
+</address>
+</distributor>
+<pubPlace>Lincoln, Nebraska</pubPlace> 
+<address>
+<addrLine>University of Nebraska-Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+<p></p>
+</availability>
+</publicationStmt>
+    
+<notesStmt><note type="abstract">This paper introduces a new ecology of learning and innovative connections between ecological and a humanities curriculum. Drawing on points of intersection between experiential liberal arts education, digital humanities, biomimicry, and ecopsychology, this session will engage instructors and administrators in course development strategies and in helping students plan their own learning by using a DH-supported systems approach to curriculum design. The presentation will explore questions including (1) how can ecological thinking provide a model for a more intentional and dynamic liberal arts pedagogy? (2) can digital technologies help us develop more ecologically-focused learning environments and curricula? and (3) how can teachers integrate ecological thinking into new and existing courses, units, and overall curriculum design?</note></notesStmt>          
+<sourceDesc>
+<p>No source: created in electronic format.</p>
+<p>
+<date when="20130718"></date>
+<time when="10:30:00"></time>
+</p>
+<p n="session">SP09</p>
+</sourceDesc>
+</fileDesc>
+    
+<profileDesc>
+<textClass>
+<keywords scheme="original" n="category">
+<term>Paper</term>
+</keywords>
+<keywords scheme="original" n="subcategory">
+<term>Short Paper</term>
+</keywords>
+<keywords scheme="original" n="keywords">
+<term>writing</term>
+<term>ecology</term>
+<term>systems</term>
+<term>liberal arts</term>
+<term>environment</term>
+                
+</keywords>
+<keywords scheme="original" n="topic">
+<term>digital humanities &#8212; pedagogy and curriculum</term>
+                
+</keywords>
+</textClass>
+</profileDesc>
+    
+<revisionDesc><change>
+<date when="2013-03-29"></date>
+<name>Erin Pedigo</name>
+<desc>Initial encoding</desc>
+</change>
+</revisionDesc>
+</teiHeader>
+    
+<text type="paper">
+<body>
+<div>       
+    
+    <p>This paper introduces a new ecology of learning and innovative connections between ecological and a humanities curriculum. Drawing on points of intersection between experiential liberal arts education, digital humanities, biomimicry, and ecopsychology, this session will engage instructors and administrators in course development strategies and in helping students plan their own learning by using a DH-supported systems approach to curriculum design.</p>
+    <p>The presentation will take as its case study Sterling College in Craftsbury Common, Vermont, the smallest four-year residential liberal arts college in the United States, and a community-centered, ecologically focused institution built upon a foundation of experiential education.</p>
+    <p>The College empowers the development learning community in which students and faculty engage in meaningful experiences each day as part of an integrative environmental liberal arts curriculum. The experiential scholarship that undergirds the College's curriculum enables countless moments of engagement between student, faculty, and place, but it is only with effective reflection that these moments coalesce and find their way into the larger dialogues and stories that make up the fabric of our community.</p>
+    <p>The presentation will explore the following areas:</p>
+ </div> 
+<div>
+<head><hi rend="bold">Community</hi></head>
+   
+    
+<div>    
+<head type="sub"><hi rend="italic">Concept</hi></head>    
+    
+    <p>From individual experience to community narrative.</p>
+</div>
+    
+<div>   
+<head type="sub"><hi rend="italic">Application</hi></head>
+    
+    <p>Community learning, broadly, is enabled by tools that (1) create collaborative spaces and empower collaboration and (2) track 'wear' by layering metadata for administrators and faculty to shape and innovate teaching strategies, which further supports migration from instructor-based to co-creative learning.</p>
+</div>
+    
+<div>    
+<head type="sub"><hi rend="italic">Discussion</hi></head>
+    
+    <p>We are currently beginning to explore how technology can help to facilitate reflection on experience to both create a community timeline of layered narratives and help to support learning experiences campus-wide by sharing these boundary objects &#8212; or boundary events &#8212; and extending discourse across the College to support our integrative curricular model. The resultant archival wear can contribute to metadata that, itself, becomes the community story and creates a feedback loop to help faculty implement more effective classroom experiences.</p>
+</div>
+</div>
+
+<div>  
+<head><hi rend="bold">Work</hi></head> 
+
+
+<div>
+<head type="sub"><hi rend="italic">Concept</hi></head> 
+    <p>Learners are more active and engaged when participating in meaningful and consequential work as both an individual and shared experience.</p>
+</div>
+
+<div>
+<head type="sub"><hi rend="italic">Application</hi></head>     
+    
+    <p>Work &#8212; whether remote or local &#8212; can be supported by mobile, accessible text and image sharing to serve as both individual archive and group collaboration can bridge between work experience and 'traditional' classroom scholarship.</p>
+</div>
+
+<div>
+<head type="sub"><hi rend="italic">Discussion</hi></head> 
+    
+    <quote>“Can there be any greater reproach than an idle learning? <lb/>
+        <p>Learn to split wood, at least.  </p>
+        
+        <p>If one has worked hard from morning till night, though he may have grieved that he could not be watching the train of his thoughts during that time, yet the few hasty lines which at evening record his day’s experience will be more musical and true than his freest but idle fancy could have furnished.... The scholar may be sure that he writes the tougher truth for the calluses on his palms. They give firmness to the sentence.</p>
+        
+        <p>Indeed, the mind never makes a great and successful effort, without a corresponding energy of the body.”</p>
+        
+       <p> &#8212; Henry David Thoreau, A Week on the Concord and Merrimack Rivers (1849)</p></quote>
+    
+    <p>Work, whether daily practice of chores or performance of an extraordinary task, always represents the engagement of an individual with the materiality of the world. In a learning environment, the enrichment of that work by empowering space for dialogue among practitioners develops community. The geographer Yi Fu Tuan distinguishes between space &#8212; as a region empty of human memory or associations &#8212; and place &#8212; spaces re-created through individual or community stories, which suggests that inhabitation and work in a locale provides it with meaning.</p>
+    <p>If threads of narrative are similarly built through interactions between the individual and the world, the ensuing story would consist of an archive of field notes and observations layered with reflections that give meaning to experience and underscore field or classroom experience as learning.</p>
+</div>
+</div>
+
+<div>
+<head><hi rend="bold">Hyperreflection and Storytelling</hi></head> 
+
+
+<div>
+<head type="sub"><hi rend="italic">Concept</hi></head>    
+    
+    <p>Reflecting from within the heart of experience.</p>
+</div>
+    
+<div>
+<head type="sub"><hi rend="italic">Application</hi></head>  
+    
+    <p>Non-text-based, 'good-enough' video, audio, image, and soundscape capture. Geotagging media can foreground the relationship between place and story as well as place and community.</p>
+</div>
+
+<div>
+<head type="sub"><hi rend="italic">Discussion</hi></head> 
+    
+    <quote>“Reflection from the midst.”
+        
+        &#8212; Maurice Merleau-Ponty </quote>
+        
+        <p>Tools can complement real experience. Reflection is a critical aspect of experience as learning; however, technology can aid in the creation of boundary events during experience to empower later reflection. If we grant that reflection is itself a form of experience, then the reflective exercise becomes a graduated event, mirroring a process writing curriculum, from field observation and description to narrative and synthesis. Hyperreflection can help generate individual narratives of experience that can coalesce and create a larger community story.</p>
+    <p>“The real Logos,” asserts philosopher and environmentalist David Abram “is EcoLogos." Abram explores Maurice Merleau-Ponty’s ideas, expressed in The Phenomenology of Perception and elsewhere, about the dialogic nature of the body and the world: “language is everything, since it is the voice of no one, since it is the voice of the things, the waves, the forests.”</p>
+</div>
+</div>
+
+<div>
+<head><hi rend="bold">Capturing Reality</hi></head> 
+
+
+<div>
+<head type="sub"><hi rend="italic">Concept</hi></head>     
+    
+    <p>Is language an obstacle to reflection on experience?</p>
+</div>
+
+<div>
+<head type="sub"><hi rend="italic">Application</hi></head>         
+    
+    <p>Mapping indelible, dynamic trajectories across space regardless of media.</p>
+</div>
+
+<div>
+<head type="sub"><hi rend="italic">Discussion</hi></head>     
+    
+    <quote>“What is crucial for us here is the place from which this real erupts: the very borderline separating the outside from the inside, materialized in this case by the windowpane” 
+        
+        &#8212; Slavoj Žižek, Looking Awry, 1995 </quote>
+        
+      <p>  Michel de Certeau's suggestion in that individuals' "trajectories form unforeseeable sentences, partly unreadable paths across a space" &#8212; although he is writing particularly about consumer culture &#8212; resonates with David Abram's premise that language can be far more sensuous and experiential than our cultural scaffolding of mere graphemes enables us to be. Both de Certeau and Abram point both to the physicality of the Real and the challenges of representation.</p> 
+        
+        <p>If language can, in essence become an obstacle to effective reflection on individual or community experiences, what are the possible solutions? what tools can support reflection in media res?</p>
+</div>
+</div>
+
+
+<div>
+<head><hi rend="bold">Participation</hi></head> 
+
+
+<div>
+<head type="sub"><hi rend="italic">Concept</hi></head>    
+    
+    <p>Effective learning environments are systems that elicit and empower user contribution and collaboration.</p>
+</div>
+
+<div>
+<head type="sub"><hi rend="italic">Application</hi></head>
+    
+    <p>Students can shape their engagement of physical learning environments by scaffolding their experience with collaborative environments where they define their place and expectations of experience.</p>
+</div>
+
+<div>
+<head type="sub"><hi rend="italic">Discussion</hi></head>    
+    
+    <p>If the work/learning community depends upon learning opportunities, facilitation, experience, and effective reflective practices, it can be aligned with Tim O'Reilly's definition of what he calls a Participatory Architecture, which points to "systems that are designed for user contribution." Whether explicitly or not, working communities both create and are created by the architectures within which they function. Thus, the spaces working communities inhabit simultaneously define and are defined by the place and the work itself. As Tim Cresswell writes, place is "something producing and produced by ideology" and "meanings of place are produced through practice."</p>
+</div>
+</div>
+
+<div>
+<head type="sub"><hi rend="bold">Pedagogy and Reflection</hi></head>
+
+
+<div>
+<head type="sub"><hi rend="italic">Concept</hi></head> 
+    
+    <p>Experience without reflection is merely activity.</p>
+</div>
+
+<div>
+<head type="sub"><hi rend="italic">Application</hi></head>     
+
+    <p>Pools of data streams should be aggregated and filtered by students.</p>
+</div>
+
+<div>
+<head type="sub"><hi rend="italic">Discussion</hi></head>    
+    
+    <p>The engagement, collaboration, and experience that current and emerging technologies purport to provide are only metaphors for the learning/teaching in which many of us are already engaged. Getting one’s hands dirty in the performance of literal, actual, meaningful work can be the scaffold for community, collaboration, and engagement that technology can potentially help facilitate. It is this very interface of ‘high touch’ engagement with students in experiential learning and the ‘high tech’ of collaborative technologies that has been challenging my thinking about technology lately &#8212; how to be sure that effective technology supports rather than replaces the meaning of experience.</p>
+    <p>In the high-touch environment of an experiential work/learning curriculum, experience becomes part of the learning experience only through reflection. High tech tools that support such reflection can enhance reflective practice by creating a pace layered archive of experience from field notes, photos, and video streams that pool in collaborative archives and workspaces, which can then be tapped for continued co-creative learning through more refined and reflective applications such as weblogs, wikis, and pooled again by feed aggregation tools for summary and synthesis.</p>
+</div>
+</div>
+
+<div>
+<head type="sub"><hi rend="bold">Environment</hi></head>  
+
+<div>
+<head type="sub"><hi rend="italic">Concept</hi></head> 
+
+    <p>To engage in the environmental crisis through education, we must make space in learning for engagement with the environment.</p>
+</div>
+
+<div>
+<head type="sub"><hi rend="italic">Application</hi></head>    
+    
+    <p>Global shared forms. Networked blogs to effect real social and political change. Data mining of weblogs.</p>
+</div>
+
+<div>
+<head type="sub"><hi rend="italic">Discussion</hi></head>     
+    
+    <p>The ecosystem has become as much a metaphor for collaborative technologies as it presents a framework within which to contemplate its development; however, as much as ecology may be an apt metaphor for digital community &#8212; in its dynamic development and organic integration of ideas in (often serendipitous) boundary objects, there continues to be a tension between the ubiquity of software and the reality of experience, a tension which is ignored by many.</p>
+    <p>Self, society, and environment always inhabit the same space &#8212; thus creating a layered topography of individuals and their context.</p>
+    <p>If knowing is defined as being "constructed through the engagement between bodies and machines within the world...this knowledge can be arrived at through a range of methodologies and voices" (Susan Kozel), how do we engage the palpable existence of the world we are trying to "save" without knowing it?</p>
+</div>
+</div>
+</body>
+</text>
+</TEI>    
+    
+    
+    
+    
+    

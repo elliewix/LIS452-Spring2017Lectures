@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://jetson.unl.edu/cdrh/schemas/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ab-106">
+
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Reading Habits &amp; Attitude in the Digital Environment: A Study on Dhaka University Students</title>
+<author>  
+<name>
+<surname>Islam</surname>, 
+<forename>Md. Anwarul</forename>
+</name>
+<affiliation>Univeristy of Dhaka</affiliation>
+<email>anwar81du@gmail.com</email>
+</author>
+</titleStmt>
+<publicationStmt>
+<authority></authority>
+<publisher>University of Nebraska-Lincoln</publisher>
+<distributor>
+<name>Center for Digital Research in the Humanities</name>
+<address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>cdrh@unl.edu</addrLine>
+</address>
+</distributor>
+<pubPlace>Lincoln, Nebraska</pubPlace> 
+<address>
+<addrLine>University of Nebraska-Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+<p></p>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<p>No source: created in electronic format.</p>
+<p>
+<date when="20130719"></date>
+<time when="08:30:00"></time>
+</p>
+<p n="session">SP13</p>
+</sourceDesc>
+</fileDesc>
+
+<profileDesc>
+<textClass>
+<keywords scheme="original" n="category">
+<term>Paper</term>
+</keywords>
+<keywords scheme="original" n="subcategory">
+<term>Short Paper</term>
+</keywords>
+<keywords scheme="original" n="topic">
+<term>digital humanities - nature and significance</term>
+</keywords>
+<keywords scheme="original" n="keywords">
+<term>reading habits</term>
+<term>attitudes</term>
+<term>online reading</term>
+<term>digital environment</term>
+<term>Bangladesh</term>
+</keywords>
+</textClass>
+</profileDesc>
+
+<revisionDesc>
+<change>
+<date when="2013-06-17"></date>
+<name>Laura Weakly</name>
+<desc>Initial encoding</desc>
+</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="paper">
+<body>
+<div>
+
+
+<div>
+<p>Technological advancement has made books available not only in printed format but also in electronic format. Bangladesh is currently experiencing the exponential growth of information and entertainment being created in a digital format. The government of Bangladesh declares ‘Digital Bangladesh’ by 2020. This steps, activities and environment are gaining importance particularly among younger people in Bangladesh (Islam &amp; Tsuji 2011). This phenomenon may change the way people perceive about reading and how printed materials are being utilized to facilitate reading. At present this paper is the first attempt to measure reading habits and attitudes in digital environment of the students in Bangladesh. This study may trigger more such research in other developing countries.</p>
+</div>
+
+<div>
+<head>Reading culture in Bangladesh </head>
+<p>Based on the survey conducted Bishwa Sahitya Kendra meaning 'World Literature Center' the reading interest and habits of Bangladeshis is very low (Bishwa Sahitya Kendra, 2012). In Bangladesh, primary, secondary and higher secondary level education are completely in Bengali medium and in higher education is both in Bengali and English languages. As most of the web contents in Bangladesh are in English language, it usually reduces the reading habits in online environment. The electronic media is challenging the reading habit in the society by shifting the attention to computer, mobile phone and internet. In the last few years it has grown dramatically, although obviously from a very low base. With an estimated internet user-base of 7.5 million coming into 2012, representing a 5% user penetration by population, the local internet industry has been preparing to move into the next stage of its development (Internet World Statistics, 2012). In a recent survey by the Bangladesh Bureau of Statistics (BBS), it was found that the literacy rate is only 56.8% (CIA, 2012). </p>
+
+<p>Research about reading has been approached from various possible angles and from a variety of disciplinary backgrounds including literature, social science, library and information science, information systems and more recently information and communication technologies (ICT). With the growing amount of digital information available and the increasing amount of time that people spend reading electronic media, the digital environment has begun to affect people’s reading behavior. Studies on reading habits and attitude among university students has gained as much attention in recent years due to the impact of digital media made available through the internet (Liu 2005; Ramirez 2003). Several theorists in reading and literacy such as Landow (1992), Lanham (1993), O’Donnell (1998) and Murray (1997) all agree that the digital media brought through progressive development of ICT has introduced a transformative shift in reading and writing. University students have been known to be very receptive to different forms of media in their reading and writing practices. A number of scholars argue that the arrival of digital media, together with the fragmentary nature of hypertext, is threatening sustained reading (Healy 1990; Birkerts 1994). Birkerts (1994) further notes that the younger generation growing up in the digital environment lacks the ability to read deeply and to sustain a prolonged engagement in reading. Bolter (1991) states: “The shift from print to the computer does not mean the end of literacy itself, but the literacy of print, for electronic technology offers us a new kind of book and new ways to write and read”. Digital media contribute to a transformative shift in reading. They also introduce a number of powerful advantages that are traditionally absent in the printed environment, such as interactivity, non-linearity, immediacy of accessing information, and the convergence of text and images, audio and video (Landow 1992; Lanham 1993; Murray 1997; Ross 2003). Abidin, Pour-Mohammadi &amp; Choon Lean (2011) conducted a study on Malaysian Chinese university students and it is revealed that the participants prefer the electronic media when reading for leisure but prefer the printed media to pass exams.</p>
+</div>
+
+<div>
+<head>Methodology</head>
+<p>In this study, the researcher intends to explore the reading attitude and habits among the Dhaka University students using a survey research method.</p>
+</div>
+
+<div>
+<head>Online survey tool</head>
+<p>An online survey tool Kwik Surveys was used for this research. The URL to the online questionnaire was sent mainly through different SNTs using personal messaging option and group post where the university students were connected via Facebook, Twitter, etc. Also, the URL was printed and provided to the students to respond to the questionnaire.</p>
+</div>
+
+<div>
+<head>The questionnaire</head>
+<p>The survey requested basic demographic data regarding age, gender and academic status and also contained items regarding the reading attitudes and habits. Students were asked to provide answers of viz, how often do you read in a week, what types of materials do they read, resources to get the reading materials, reading materials in leisure time, times spend on reading in online and so on. The survey also included 7-point Likert scale items regarding students’ attitudes towards reading, preference of reading in online and manual (1 being the lowest and 7 being the highest). The data analysis was carried out using SPSS statistical analysis software.</p> 
+</div>
+
+<div>
+<head>Data analysis techniques</head>
+<p>In order to determine influence of students’ demographic characteristics on their opinions on reading attitudes and behaviour, Mann-Whitney and Kruskall-Wallis tests were carried out. Descriptive statistics were used to analyze demographic characteristics of the students in relation to their reading books in digital environment. A total 192 students responded to the online survey. </p>
+</div>
+
+<div>
+<head>Objectives of the study </head>
+<p>This study attempts to answer the following Major Research Questions (MRQs) as formulated below:</p>
+
+<p><hi rend="bold">MRQ 1.</hi> What is the reading habit of the students in terms of the following?</p>
+
+<list type="ordered">
+<item>(a) What type of reading material do they read?</item>
+<item>(b) How much time do student spend on reading?</item>
+<item>(c) Where do they get the reading material?</item>
+<item>(d) When do they read?</item>
+<item>(e) What do they read during leisure time?</item>
+<item>(f) What percentage of time reading spent on reading electronic documents, browsing and scanning, and their overall experience with online reading? </item>
+<item>(g) What are the tools they use access to electronic resources?</item>
+</list>
+
+<p><hi rend="bold">MRQ2.</hi> What is the students’ attitude towards reading?</p>
+<list type="ordered">
+<item>(a) Do they love to read book?</item>
+<item>(b) Do they think reading is boring?</item>
+<item>(c) Do they feel pleasure to spend money for buying book? </item>
+<item>(d) Which medium (printed or online) do they feel comfort for reading book?</item>
+<item>(d) What is their overall reading attitudes and other relevant issues?</item>
+</list> 
+
+<p><hi rend="bold">MRQ3.</hi> Is there any relationship between gender, age, study level with their reading habit and attitude?</p>
+</div>
+
+<div>
+<head>Findings </head>
+<p>This study was conducted in an attempt to enhance our understanding about reading habits and attitudes of the university students in Bangladesh focusing on a case of a public university. In this effort, students from all the faculties were chosen as the respondents. In overall analysis that include both groups, results indicates that university students spend quite a signiﬁcant amount of time reading newspapers 84.90% and second highest is the academic books 61.46%. A good number of students (50%) read also website materials. Reading has also become a major activity during their leisure time. Most of the students (57.81%) read fiction and novel in their leisure time and it is followed by newspaper 55.73%, magazine 43.75% and website materials (29.17%). The amount of time spent on reading other materials by the university students is seen as higher than their academic books and materials. This group is expected to read more due to their engagement in the academic process that requires them to read. Despite different extent in the preference among different genders and different study level, the study ﬁnds that preference for reading printed text remains strong which is 51.56%. This clearly indicates that printed media is the more used than online media due to the lack of facilities, poor online content and less availability of reading materials in online. On the other hand, students prefer reading in online environment when read short documents, casual reading and most recent information which mean score is above 4. In online environment, access to electronic resources mobile phone, laptop and desktop are the most used tools. Attitudes towards reading was high as the statements love to read books, like to read books when have free time and enjoyment from reading score was above 4. Several limitations can be found in the conduct of this study. Among them are the small sample size, the inclusion of only one university and the limited amount of variables studied. A bigger scale study need to be conducted for more reliable results, and with the inclusion of more variables such as family background, reading exposure and availability of reading materias, and variables that are related speciﬁcally with reading in the digital environment. In addition, the ﬁndings of the study should assist the university authority, especially the library and the computing department to look into service matters pertaining to accommodating the reading as well as the studying habits of the student. 24 hours of computing service may also allow students to use the internet since the day time is fully occupied with classes. This practice has been carried out in many western high academic institutions.</p>
+</div>
+
+
+
+
+                
+</div>
+
+</body>
+
+<back>
+<div type="References">
+<listBibl>
+
+<bibl><hi rend="bold">BSK</hi> (2012). Bishwa Sahitya Kendra available at: <ref type="url" target="http://en.wikipedia.org/wiki/Bishwa_Sahitya_Kendra">http://en.wikipedia.org/wiki/Bishwa_Sahitya_Kendra</ref></bibl>
+
+<bibl><hi rend="bold">Birkerts, S.</hi> (1994). <hi rend="italic">The Gutenberg Elegies: The Fate of Reading in an Electronic Age</hi>. Boston: Faber and Faber.</bibl>
+
+<bibl><hi rend="bold">Bolter, J. D.</hi> (1991). <hi rend="italic">Writing Spaces: The Computer, Hypertext, and the History of Writing</hi>. Hillsdale, NJ: Laurence Erlbaum Associates.</bibl>
+
+<bibl><hi rend="bold">CIA</hi> (2012). The World Factbook: Bangladesh, available at: <ref type="url" target="https://www.cia.gov/library/publications/the-world-factbook/geos/bg.html">https://www.cia.gov/library/publications/the-world-factbook/geos/bg.html</ref>.</bibl>
+
+<bibl><hi rend="bold">Healy, J. M.</hi> (1990). <hi rend="italic">Endangered Minds: Why Our Children Don’t Think</hi>. New York: Simon and Schuster.</bibl>
+
+<bibl><hi rend="bold">Internet World Statistics</hi> (2012). Bangladesh-Internet Markets and Forecasts, available at: <ref type="url" target="http://www.internetworldstats.com/asia/bd.htm">http://www.internetworldstats.com/asia/bd.htm</ref></bibl>
+
+<bibl><hi rend="bold">Islam, M. A., and K. Tsuji.</hi> (2011). Bridging digital divide in Bangladesh: study on community information centers, The Electronic Library. 29 (4): 506–522</bibl>
+
+<bibl><hi rend="bold">Landow, G.</hi> (1992). <hi rend="italic">Hypertext: The Convergence of Technology and Contemporary Critical Theory</hi>. Baltimore: Johns Hopkins University Press.</bibl>
+
+<bibl><hi rend="bold">Lanham, R.</hi> (1993). <hi rend="italic">The Electronic Word: Technology, Democracy, and the Arts</hi>. Chicago: University of Chicago Press.</bibl>
+
+<bibl><hi rend="bold">Liu, Z.</hi> (2005). Reading behavior in the digital environment: changes in reading behavior over the past 10 years, <hi rend="italic">Journal of Documentation</hi>. 61(6): 700-12.</bibl>
+
+<bibl><hi rend="bold">Murray, J. H.</hi> (1997). <hi rend="italic">Hamlet on the Holodeck: The Future of Narrative in Cyberspace</hi>. Boston: MIT Press.</bibl>
+
+<bibl><hi rend="bold">O’Donnell, J. J.</hi> (1998). <hi rend="italic">Avatars of the Word: From Papyrus to Cyberspace</hi>. Cambridge, MA: Harvard University Press.</bibl>
+
+<bibl><hi rend="bold">Abidin, M. J. Z, M. Pour-Mohammadi, and O. Choon Lean</hi> (2011). The reading habits of Malaysian Chinese University Students. <hi rend="italic">Journal of Studies in Education.</hi> 1(1):E9. </bibl>
+
+<bibl><hi rend="bold">Ramirez, E.</hi> (2003). “The impact of the internet on the reading practices of a university community: the case of UNAM”, paper presented at the World Library and Information Congress: 69th IFLA General Conference and Council, Berlin, August 1-9.</bibl>
+
+<bibl><hi rend="bold">Ross, C. S.</hi> (2003). “Reading in a digital age”, available at <ref type="url" target="http://www.camls.org/ce/ross.pdf">www.camls.org/ce/ross.pdf</ref>.</bibl>
+
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>
+

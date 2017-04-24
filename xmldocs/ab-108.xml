@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://jetson.unl.edu/cdrh/schemas/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ab-108">
+
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Collation on the Web</title>
+<author>
+<name>
+<surname>Schmidt</surname>, 
+<forename>Desmond</forename>
+</name>
+<affiliation>University of Queensland</affiliation>
+<email>desmond.allan.schmidt@gmail.com</email>
+</author>
+</titleStmt>
+<publicationStmt>
+<authority></authority>
+<publisher>University of Nebraska-Lincoln</publisher>
+<distributor>
+<name>Center for Digital Research in the Humanities</name>
+<address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>cdrh@unl.edu</addrLine>
+</address>
+</distributor>
+<pubPlace>Lincoln, Nebraska</pubPlace> 
+<address>
+<addrLine>University of Nebraska-Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+<p></p>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<p>No source: created in electronic format.</p>
+<p>
+<date when="20130718"></date>
+<time when="10:30:00"></time>
+</p>
+<p n="session">SP10</p>
+</sourceDesc>
+</fileDesc>
+
+<profileDesc>
+<textClass>
+<keywords scheme="original" n="category">
+<term>Paper</term>
+</keywords>
+<keywords scheme="original" n="subcategory">
+<term>Short Paper</term>
+</keywords>
+<keywords scheme="original" n="topic">
+<term>scholarly editing</term>
+<term>software design and development</term>
+<term>user studies / user needs</term>
+<term>philology</term>
+<term>xml</term>
+</keywords>
+<keywords scheme="original" n="keywords">
+<term>collation web-application</term>
+</keywords>
+</textClass>
+</profileDesc>
+
+<revisionDesc>
+<change>
+<date when="2013-06-17"></date>
+<name>Laura Weakly</name>
+<desc>Initial encoding</desc>
+</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="paper">
+<body>
+<div>
+
+<div>
+<p>Collation comes from the Latin <hi rend="italic">confero</hi> (perfect participle <hi rend="italic">collatum</hi>) meaning  ‘bring together’. There are several meanings in English, among them ‘bring together for comparison … in order to ascertain points of agreement and difference’ (OED, 2012). Even here collation may refer to a mechanical, manual or computerised process of comparing texts. My focus is on the latter, because it derives from an originally manual process as described, for example, by West (1973, 66f) and Dearing (1962, 14ff). Collation was a key part of the preparation of a critical edition because it supplied the raw differences between a chosen copy text and the other versions that aided the establishment of a single text suitable for printing. </p>
+
+<p>Vinton Dearing in 1962 described what is perhaps the world’s first collation program (1962, 18-19). It compared two texts, one line at a time, within a window of 10 lines in either direction. Once a line (or later a word) was matched in the two versions being compared, the window was moved on. This allowed it to recognise insertions, deletions, substitutions and transpositions over short distances. The window was used probably because memory on the IBM 7090 for which it was written, was limited. This basic design was then followed in all subsequent collation programs. For example the collation program of Froger (1968 234), ‘EDIT’  (Silva and Bellamy 1969, 41-25),  ‘OCCULT’ (Petty and Gibson 1970), the collation program of Gilbert (1973), ‘UNITE’ (Marín 1991), ‘PC-CASE’ (Shillingsburg 1996, 144-148), ‘TUSTEP-Collate’ (1979), ‘URICA!’ (Cannon and Oakman 1989), ‘DV-Coll’ (Stringer and Vilberg 1987) and ‘Collate’ (Robinson 1989, 1994) all appear to use the same ‘sliding window’ technique. The size of the window varies, and in various programs extra features are added such as the ability to embed references, define transposed blocks and perform spelling normalisation (Collate), or the ability to merge collation output from each run (TUSTEP, PC-CASE).  </p>
+
+<p>One point often mentioned in these early collation programs is that they were developed to automate the manual process of producing a print edition. As Cannon explains: ‘automatic collation should proceed as it would be performed manually’ (1976, 33). Robinson also admits, when talking of the automatic treatment of variants that ‘most electronic editions do the same as book editions: they just do more of it, perhaps with marginally more convenience’ (2003).</p>
+
+<p>The sliding window technique has come to define what automatic collation is, but it has some serious technical limitations. For example, it cannot see alignments of words outside of the window, and this makes it prone to mistakes, which must be manually corrected. However, modern computers have no need of a window, as they can easily load into memory the entire text for comparison.</p>
+
+<p>One may also ask whether a print-based collation technique is really suited to a modern fluid medium like the Web. Differences discovered by a machine are not always suitable for display on a screen. As Robinson points out: ‘Some differences will be just, well, noise: only a few ... are real variants, of real interest to real scholars.’ (2009, 349). Hence all the early collation programs employ filtering, whether some kind of fuzzy matching, or a normalisation table to discount minor spelling variants. However, an apparatus generated in this way cannot subsequently be recombined with the base text to produce the faithful text of another version, because after filtering it contains only a tiny fraction of the true differences. It thus can only be attached to a base version as a series of notes, which limits the possibilities for display and interaction between user and text. </p>
+
+<p>Another problem arises from the use of embedded markup. When SGML and then XML became popular from around 1990, there was a notable decrease of interest in collation programs. Existing programs were not updated, and replacements that fully handle XML have not yet emerged. The reason seems to be that if the computed differences between two texts contain disconnected start or end-tags, how does one supply the missing tags? In the case of an apparatus entry generated from TEI-XML such as: ‘word<code>&lt;/hi&gt;</code>’, what is the format of ‘word’? It could be anything because the start-tag and its attributes have been lost. So markup must be stripped out before collation can take place, as is done, for example, in Juxta Commons (2012). But stripping out markup is prone to error: how, for example, does one deal with embedded notes, and interpretations, or alternatives like ‘sic’ and ‘corr’ or embedded variants? (Schmidt 2012a). It also makes it difficult to compare formatting differences, and to later restore the markup, because the differences only refer to the stripped text.</p>
+
+<p>A further problem is whether people really want to see a print apparatus on the screen. Although it may be defended as a traditional form of variant display, what the modern user ultimately wants is interactivity. The essence of the modern Web is animation or the ability to edit and contribute in real time, not statically formatted data.</p> 
+</div>
+
+<div>
+<head>From collation to merging</head>
+<p>What is needed for the medium of the Web is a thorough reassessment of the collation process. As a first step the difficulties in comparing embedded markup can be avoided by separating the text from its properties. ‘Standoff properties’ (Schmidt 2012a), which are modelled on LMNL (Piez, 2010), can be used in place of embedded XML, and may be generated from plain text or XML files. For each version this produces one version of the text and one or more markup files. The text and markup can then be merged separately, using the nmerge program (Schmidt 2009), into multi-version documents, which record the differences between all the versions globally – not merely between the base version and the rest. Because it doesn’t use a sliding window, but looks for differences over the entire text, nmerge doesn’t lose its way. The separately computed differences in the markup and the text are merged with the text’s own structural properties and then formatted into HTML, without the need for XML. This new platform for digital editions facilitates various techniques for displaying variation (Figure 1). Each display is generated as a partial web-page so it can be incorporated into any kind of Web-delivery system:</p>
+ 
+<figure><graphic url="ab-108.001"/><head>Figure 1:</head> <p>Collation workflow using MVD+standoff properties</p></figure>
+
+<p>The most popular of these is the side-by-side display. Examples include MEDITE (Bourdaillet and Ganascia 2006), the MVD-GUI (Schmidt et al. 2008), Juxta Commons (2012), the Trein der Traagheid electronic edition (Roelens et al. 2012), the Versioning Machine (Schriebman 2011), etc. Some of these programs have synchronised scrolling, which helps keep compared versions in alignment. Side by side view is more suited to programs like MEDITE or nmerge that compute character-level differences as opposed to word-level differences, because the user can see at a glance how two similar words differ. And multi-version documents already contain all the differences between versions, which don’t need to be recomputed each time, resulting in a much faster response, as can be seen in the AustESE (Australian electronic scholarly editions) test web interface (Schmidt 2012b). </p>
+
+<p>Another popular type of variant display is the table, as found in CollateX (Dekker et al. 2011), and in the Cervantes hypertext edition (Urbina 2008). This is particularly useful in textual criticism because it presents much the same information as the old apparatus, but in a native digital form. In the AustESE test interface, table view (Figure 2) offers several options to reduce variant clutter without resorting to filtering. Character-level granularity can be easily extended to word-level, which is more useful for this type of display. Table view has the advantage over side-by-side in that it allows the user to explore the differences between a larger set of versions. Combining a horizontally scrolling table of variants with a synchronised vertically scrolling main text even produces a credible replacement for the print critical edition in digital form (Schmidt 2012b). </p>
+ 
+<figure><graphic url="ab-108.t01"/><head>Figure 2:</head> <p>Table view</p></figure>
+
+</div>
+
+<div>
+<head>Conclusion</head>
+<p>The goal of collation on the Web is to provide the user with a variety of display options for exploring variation in a work. Collation conceived as a process for producing an apparatus or a filtered set of differences external to the text is too limited a technique to satisfy the flexible delivery options of the Web. Merging variant versions into a single digital object, on the other hand, provides a more efficient and direct way to query differences between versions, and to present the results through various views. Embedding markup into the text also creates problems for collation, and its removal allows differences between versions of text and markup to be merged as separate layers into the final result. The medium of the Web thus offers more than just new ways to display old data. It challenges us to rethink fundamentally the way we create the modern edition.</p>
+</div>
+
+
+
+                
+</div>
+
+</body>
+
+<back>
+<div type="References">
+<listBibl>
+
+<bibl><hi rend="bold">Bourdaillet, J. and J. G. Ganascia</hi> (2006). MEDITE: A Unilingual Textual Aligner. In J. G. Carbonell and J. Siekmann (eds). <hi rend="italic">Lectures Notes in Artificial Intelligence</hi>. 4139: 458-469.</bibl>
+
+<bibl><hi rend="bold">Cannon, R. L.</hi> (1976). OPCOL: An Optimal text Collation Algorithm. Computers and the Humanities 10(1): 33-40.</bibl>
+
+<bibl><hi rend="bold">Cannon, R. L., and R. L. Oakman</hi> (1989). Interactive Collation on a Microcomputer: The URICA! Approach. <hi rend="italic">Computers and the Humanities</hi> 23: 469-472.</bibl>
+
+<bibl><hi rend="bold">Dearing, V. A.</hi> (1962). Methods of Textual Editing, Los Angeles: William Andrews Clark Memorial Library, University of California.</bibl>
+
+<bibl><hi rend="bold">Dekker, R. H., T. Andrews, B. Buitendijk, Z. Green, T.A. Griffitts, G. Middell, M. Mielnicki, L.-J. Olsson, T. Parkola, T. Vitt, and J. van Zundert</hi> (2011). CollateX. <ref type="url" target="http://collatex.sourceforge.net">http://collatex.sourceforge.net</ref> (accessed 8 Oct, 2012).</bibl>
+
+<bibl><hi rend="bold">Froger, D. J.</hi> (1968). <hi rend="italic">La critique des textes et son automatisation</hi>. Paris: Dunod.</bibl>
+
+<bibl><hi rend="bold">Gilbert, P.</hi> (1973). Automatic Collation: A Technique for Medieval Texts. <hi rend="italic">Computers and the Humanities</hi> 7(3): 139-145.</bibl>
+
+<bibl><hi rend="bold">Juxta Commons</hi> (2012). Juxta. <ref type="url" target="http://www.juxtasoftware.org">http://www.juxtasoftware.org</ref> (accessed 8 Oct 2012).</bibl>
+
+<bibl><hi rend="bold">Marín, F.</hi> (1991). Computers and Text Editing: A Review of Tools, an Introduction to UNITE and Some Observations Concerning its Application to Old Spanish Texts. <hi rend="italic">Romance Philology</hi> 35: 102-122.</bibl>
+
+<bibl><hi rend="bold">OED</hi> (2012). Oxford English Dictionary Online. Oxford: Oxford University Press.</bibl>
+
+<bibl><hi rend="bold">Ott, W.</hi> (1979). A Text Processing System for the Preparation of Critical Editions. <hi rend="italic">Computers and the Humanities</hi> 13: 29-35.</bibl>
+
+<bibl><hi rend="bold">Petty, G. R., and W. M. Gibson</hi> (1970). <hi rend="italic">Project OCCULT: The Ordered Computer Collation of Unprepared Literary Texts.</hi> New York: New York University Press.</bibl>
+
+<bibl><hi rend="bold">Piez, W.</hi> (2010). 'Towards Hermeneutic Markup: An Architectural Outline'. <hi rend="italic">Digital Humanities Conference.</hi> held July 7-10 2010 at Kings College London.</bibl>
+
+<bibl><hi rend="bold">Roelens, X., R. Van den Branden, and E. Vanhoutte</hi> (2012). De trein der traagheid. <ref type="url" target="http://edities.ctb.kantl.be/daisne/index.htm">http://edities.ctb.kantl.be/daisne/index.htm</ref> (accessed 8 Oct 2012).</bibl>
+
+<bibl><hi rend="bold">Robinson, P. M. W.</hi> (1989). The Collation and Textual Criticism of Icelandic Manuscripts (1) Collation. <hi rend="italic">Literary and Linguistic Computing</hi> 4(2): 99-105.</bibl>
+
+<bibl><hi rend="bold">Robinson, P. M. W.</hi> (1994). <hi rend="italic">Collate 2: A User Guide</hi>. Oxford: Oxford Computing Service.</bibl>
+
+<bibl><hi rend="bold">Robinson, P. M. W.</hi> (2003). Where we are with electronic scholarly editions and where we want to be. <hi rend="italic">Computerphilologie</hi> 5: 125-146. <ref type="url" target="http://computerphilologie.tu-darmstadt.de/jg03/robinson.htm">http://computerphilologie.tu-darmstadt.de/jg03/robinson.htm</ref>.</bibl>
+
+<bibl><hi rend="bold">Robinson, P. M. W.</hi> (2009). Towards a Scholarly Editing System for the Next Decades. In: Huet, G., A. Kulkarni, and P. Scharf, (eds), Sanskrit Computational Linguistics 2007/2008. <hi rend="italic">LNCS</hi>. 5402: 346–357.</bibl>
+
+<bibl><hi rend="bold">Schmidt, D., D. Fiormonte, and N. Brocca</hi> (2008). A Multi-Version Wiki. In Opas-Hänninen, L.L., M. Jokelainen, I. Juuso, T. Seppänen (eds.), <hi rend="italic">Proceedings of Digital Humanities 2008</hi> held June 2008 in Oulu, Finland. 187-188.</bibl>
+
+<bibl><hi rend="bold">Schmidt, D.</hi> (2009). Merging Multi-Version Texts: a General Solution to the Overlap Problem, in <hi rend="italic">The Markup Conference 2009 Proceedings</hi> held August in Montreal.</bibl>
+
+<bibl><hi rend="bold">Schmidt, D.</hi> (2012a). <hi rend="italic">The Role of Markup in the Digital Humanities, Historical and Social Research/Historische Sozialforschung</hi> 37(3): 125-146.</bibl>
+
+<bibl><hi rend="bold">Schmidt, D.</hi> (2012b). <ref type="url" target="http://austese.net/tests/">http://austese.net/tests/</ref> (accessed 8 Oct, 2012).</bibl>
+
+<bibl><hi rend="bold">Schriebman, S.</hi> (2011). The Versioning Machine. <ref type="url" target="http://v-machine.org">http://v-machine.org</ref> (accessed 8 Oct 2012).</bibl>
+
+<bibl><hi rend="bold">Shillingsburg, P.</hi> (1996). <hi rend="italic">Scholarly Editing in the Computer Age Theory and Practice.</hi> Ann Arbor: University of Michigan Press.</bibl>
+
+<bibl><hi rend="bold">Silva, G., C. Bellamy.</hi> (1968). <hi rend="italic">Some Procedures and Programs for Processing Language Data.</hi> Clayton: Monash University.</bibl>
+
+<bibl><hi rend="bold">Stringer, G., W. Vilberg.</hi> (1987). The Donne Variorum Textual Collation Program. <hi rend="italic">Computers and the Humanities.</hi> 21(2): 83-89.</bibl>
+
+<bibl><hi rend="bold">Urbina, E.</hi> (ed). (2008). Electronic variorum edition of the Quixote. <ref type="url" target="http://cervantes.tamu.edu/V2/CPI/variorum/index.htm">http://cervantes.tamu.edu/V2/CPI/variorum/index.htm</ref> (accessed 8 Oct, 2012).</bibl>
+
+<bibl><hi rend="bold">West, M. L.</hi> (1973). <hi rend="italic">Textual Criticism and Editorial Technique.</hi> Stuttgart: B.G. Teubner.</bibl>
+
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>
+

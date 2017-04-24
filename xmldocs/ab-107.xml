@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://jetson.unl.edu/cdrh/schemas/tei_all.rng" type="xml"?>
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ab-107">
+
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Becoming interdisciplinary</title>
+<author>
+<name><surname>McCarty</surname>, <forename>Willard</forename></name>
+<affiliation>King&#039;s College London, United Kingdom</affiliation>
+<email>willard.mccarty@kcl.ac.uk</email>
+</author>
+</titleStmt>
+<publicationStmt>
+<authority></authority>
+<publisher>University of Nebraska-Lincoln</publisher>
+<distributor>
+<name>Center for Digital Research in the Humanities</name>
+<address>
+<addrLine>319 Love Library</addrLine>
+<addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+<addrLine>cdrh@unl.edu</addrLine>
+</address>
+</distributor>
+<pubPlace>Lincoln, Nebraska</pubPlace> 
+<address>
+<addrLine>University of Nebraska-Lincoln</addrLine>
+<addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+<p></p>
+</availability>
+</publicationStmt>
+
+<notesStmt><note type="abstract">Of the qualities claimed to be normal for work in the digital humanities, $2 is perhaps the least well understood. Discussion of this quality is either dominated by the ontological question, “what is interdisciplinarity?”, or considered solely in terms of collaboration among researchers from different disciplines. Neither helps the individual researcher (whether working alone or as part of a team) understand how to think his or her way into the disciplines of others and understand what they have to offer from their own perspective. In the proposed paper I will discuss the problem and illustrate a way forward by describing a doctoral-level course in interdisciplinary research that I have taught for the last three years.</note></notesStmt>
+
+<sourceDesc>
+<p>No source: created in electronic format.</p>
+<p>
+<date when="20130717"></date>
+<time when="10:30:00"></time>
+</p>
+<p n="session">LP05</p>
+</sourceDesc>
+</fileDesc>
+
+<profileDesc>
+<textClass>
+<keywords scheme="original" n="category">
+<term>Paper</term>
+</keywords>
+<keywords scheme="original" n="subcategory">
+<term>Long Paper</term>
+</keywords>
+<keywords scheme="original" n="keywords">
+<term>interdisciplinary</term>
+<term>research</term>
+<term>ethnography</term>
+<term>disciplines</term>
+</keywords>
+<keywords scheme="original" n="topic">
+<term>user studies / user needs</term>
+<term>interdisciplinary collaboration</term>
+<term>digital humanities - pedagogy and curriculum</term>
+<term>anthropology</term>
+<term>cultural infrastructure</term>
+</keywords>
+</textClass>
+</profileDesc>
+
+<revisionDesc>
+<change>
+<date when="2013-03-26"></date>
+<name>Laura Weakly</name>
+<desc>Initial encoding</desc>
+</change>
+</revisionDesc>
+</teiHeader>
+
+<text type="paper">
+<body>
+<div>
+
+
+<p>Research in the digital humanities is by definition <hi rend="italic">interdisciplinary</hi> and is frequently, though not always, <hi rend="italic">collaborative</hi>. Both terms are often used in discussions of the field. The qualities they name are vigorously promoted and so close to becoming unquestioned virtues that they may seem merely descriptive of how research should or even must now be done. Yet we have a very poor grasp of what these qualities mean, how they shape practice, what they entail and how they change the disciplines and problems they involve. </p>
+
+<p>Help is at hand for <hi rend="italic">collaborative</hi> from the more than 30 years’ work on the laboratory sciences by historians, sociologists and others &#8212; work that remains largely untapped by the digital humanities. For <hi rend="italic">interdisciplinary</hi>, however, there is much less help, despite the fact that interdisciplinary research has been discussed on and off since the early 20th Century. In the proposed paper I will continue this discussion but in quite practical terms: not asking, as is so often done, what interdisciplinarity is, rather how becoming interdisciplinary can be intelligently attempted. I will briefly describe existing work on the topic and say why I think <hi rend="italic">interdisciplinary</hi> is poorly understood and why it is important that we get it right. I will then exemplify a way forward by describing a doctoral-level course which I have taught for the last four years to students from the humanities and the social, health, and physical sciences. I will argue for disciplines as starting-points rather than “islands of knowledge” (Hacking 2012) to which we are necessarily marooned. I won’t say much about how institutions work against our becoming as interdisciplinary as we can be, though they certainly do that.</p>
+
+<p>Almost all discussion of the topic takes one of two forms. Most of it is framed by the ontological question: What is interdisciplinarity? How is it different from multidisciplinarity, transdisciplinarity and so on? (Klein 1990). The remainder assumes that interdisciplinary research is what happens when individuals from different disciplines collaborate. Both have their merits. Asking the ontological question leads to useful work in the history and sociology of knowledge (Frodeman et al. 2010); examining the work of teams illumines the transmission of knowledge across cultural boundaries (Gorman 2010) and their complex social and institutional dynamics (Strober 2010). But neither the ontological nor the sociological approach is of much help to individual scholars attracted by ideas from elsewhere or forced by the logic of their situation to take on a foreign discipline. Their problem is how to proceed immediately, by themselves, from initial curiosity to an understanding sufficient to make responsible use of another perspective. And neither approach addresses the problem illustrated by Myra Strober: how individuals within a collaborative team come to understand what the others are talking about and why, or fail to do so. </p>
+
+<p>The ontological question tends also to mislead by using an abstract noun (“interdisciplinarity” &amp;c) to name what is a way of acting rather than a aspirational state or class which scholarship can achieve. To use the abstraction implies the fixed form and properties of some<hi rend="italic">thing</hi>, or a history of successive forms and properties. The individual scholar, with his or her immediate, practical concerns, needs help with acquiring knowledge <hi rend="italic">how</hi>, not knowledge <hi rend="italic">that</hi>.</p> 
+
+<p>Reframing interdisciplinary research as a way of acting clarifies the problem but does not make it easy. Stanley Fish has famously argued that “being interdisciplinary is so very hard to do” (1989), by which he meant impossible. Many attest that making the attempt is severely challenging. Gillian Beer has perhaps most eloquently of all spelled out the difficulties (2006) but nevertheless continues undaunted into “open fields” of knowledge (1996). Fish’s argument turns on the impossibility of achieving a neutral and therefore perfectly interdisciplinary standpoint. Granted: there can be no perspective on disciplines unaffected by one’s discipline of origin. But Fish goes badly wrong in asserting that any <hi rend="italic">attempt</hi> is therefore not only impossible but also a moral error, Alan Liu points out (2008). I argue that trying is all for those of us who would extend our knowledge beyond what we have been conditioned to know in the ways we have been conditioned to know it.</p>
+
+<p>Being interdisciplinary is difficult because from the get-go academic training situates the researcher within a specific field of discourse conducted, as Richard Rorty has said, “within an agreed-upon set of conventions about what counts as a relevant contribution, what counts as answering a question, what counts as having a good argument for that answer or a good criticism of it” (1979: 320). For this reason, in proportion to differences in its conventions, research in a discipline to which one is alien is difficult to see as good research, or even to see as research at all. The outsider presenting to insiders is apt to be greeted by incomprehension, misapprehension, indifference, hostility &#8212; or, what is worst of all, he or she may not be heard as saying much of anything. </p> 
+
+<p>Practitioners in the digital humanities cannot avoid putting themselves in the path of such danger if they are to be more than experts in a range of techniques. As a matter of course we practitioners are thrust into cross-disciplinary encounters in which operating intelligently within a foreign set of conventions is essential. The question is not whether to engage with strangers at a more than superficial level, rather how to do this well. </p>
+
+<p>We face the problem in three areas.</p>
+
+<p>First, as builders of things for others we cannot simply impose received methods onto problems in the form in which colleagues bring them: both problems and methods must be rethought in the light of each other. Each time the situation demands we converse in a suitable pidgin to negotiate the difficult “trading zone” between another discipline and computing as we know it (Gorman 2010). A conversational language which avoids the difficulties inherent to such an interchange by reducing it to the machine’s known capabilities may lead to useful resources but stretches neither the client discipline nor our own. In fact it reduces the digital humanities to a mere service. </p>
+
+<p>Second, like all those others who have brought new programmes of research into the academy, we need help from the older disciplines. Hence we need to look into them. Their help is not without its dangers, however, since ways of working and thinking, like physical instruments, implicitly carry baggage across that trading zone that can significantly affect how the recipient field subsequently does its work. We interdisciplinary researchers need to know insofar as possible not simply what the insider of another discipline knows but how he or she knows it and what its tendencies and entailments are.</p>
+
+<p>Third, as cultural critics and educators we must be alert to the refiguration of disciplinary thought. This refiguration is powered by two covert forces: the incursion of methodology into the formerly non-methodological humanities (Gadamer 2000/1960), and the unavoidable temptation to stray far and wide in response to the riches presented to us and our students by JSTOR and the like. How possibly can scholars fulfil their responsibilities as educated commentators and teachers without the skills of interdisciplinary navigation?</p>
+
+<p>In the proposed paper I argue that the most promising approach to the problem in all three of its forms is ethnographic, taking disciplines to be “epistemic cultures” (Knorr Cetina 1991) with the objective of discovering “the native’s point of view” (Geertz 1983). Again this does not make the project of taking on a foreign discipline any less of a challenge, but it does provide a starting point. The usefulness of anthropological tools in computer science to improve the fit of system to users suggests their immense practical value (Crabtree, Rouncefield, and Tolmie 2012; cf. Nardi 2010). But as far as I can determine, little to no attempt has been made to train researchers to apply them to interdisciplinary encounters.</p> 
+
+<p>I will illustrate how I have done this by presenting the syllabus of a course developed from my own research practices and summarizing what I have learned from teaching it. After a brief theoretical introduction, this course, <hi rend="italic">Exploring Disciplines</hi>, takes up a series of case-studies, each with readings in the discipline under consideration: philosophy, biology, history, literary studies, computer science, cultural studies and archaeology and epigraphy. (The Syllabus for 2013 may be found at <ref target="http://tinyurl.com/bzl8755">http://tinyurl.com/bzl8755</ref>.) Its ethnographic orientation is reflected in the organizing metaphor of an archipelago &#8212; again Hacking’s “islands of knowledge”. But sensitivity to the operative metaphor is cultivated by returning again and again to explicit consideration of its tendencies and to brief consideration of other possibilities (McCarty 2006).</p>
+
+
+
+                
+</div>
+
+</body>
+
+<back>
+<div type="References">
+
+
+<listBibl>
+
+<bibl><hi rend="bold">Beer, G.</hi> (1996). <hi rend="italic">Open Fields: Science in Cultural Encounter</hi>. Oxford: Oxford University Press.</bibl>
+<bibl><hi rend="bold">Beer, G.</hi> (2006). <hi rend="italic">The Challenges of Interdisciplinarity</hi>. Speech for the Annual Research Dinner. held 26 April 2006 at Durham University. <ref target="http://www.dur.ac.uk/ias/news/annual_research_dinner/">www.dur.ac.uk/ias/news/annual_research_dinner/</ref> (7 October 2012).</bibl>
+<bibl><hi rend="bold">Crabtree, A., M. Rouncefield, and P. Tolmie</hi> (2012). <hi rend="italic">Doing Design Ethnography</hi>. Berlin: Springer Verlag.</bibl>
+<bibl><hi rend="bold">Fish, S.</hi> (1989). “Being Interdisciplinary Is So Very Hard To Do”. <hi rend="italic">Profession 89</hi>. <hi>15-22</hi>. New York: Modern Language Association.</bibl>
+<bibl><hi rend="bold">Frodeman, R., J. T. Klein, and C. Mitcham</hi> (eds). (2010). <hi rend="italic">The Oxford Handbook of Interdisciplinarity</hi>. Oxford: Oxford University Press.</bibl>
+<bibl><hi rend="bold">Gadamer, H.-G.</hi> (2000/1960) <hi rend="italic">Truth and Method</hi>. 2nd rev. edn. trans. by Weinsheimer, J. and D. G. Marshall. New York: Continuum.</bibl> 
+<bibl><hi rend="bold">Geertz, C.</hi> (1983). 'From the Native’s Point of View': On the Nature of Anthropological Understanding”. <hi rend="italic">Local Knowledge: Further Essays in Interpretative Anthropology</hi>. 3rd edn. New York: Basic Books.</bibl>
+<bibl><hi rend="bold">Gorman, M. E.</hi> (2010). <hi rend="italic">Trading Zones and Interactional Expertise: Creating New Kinds of Collaboration</hi>. Cambridge, MA: MIT Press.</bibl>
+<bibl><hi rend="bold">Hacking, I.</hi> (2012). <hi rend="italic">The Anthropology (and Archaeology) of Numbers.</hi> The Henry Meyers Lecture 2012. held at Royal Anthropological Institute. London. <ref target="http://www.therai.org.uk/">www.therai.org.uk/</ref> (accessed 7 October 2012).</bibl>
+<bibl><hi rend="bold">Klein, J. T.</hi> (1990). <hi rend="italic">Interdisciplinarity: History, Theory, &amp; Practice</hi>. Detroit: Wayne State University Press.</bibl>
+<bibl><hi rend="bold">Knorr Cetina, K.</hi> (1991). “Epistemic Cultures: Forms of Reason in Science”. <hi rend="italic">History of Political Economy</hi> 23(1). 105-22.</bibl>
+<bibl><hi rend="bold">Liu, A. </hi> (2008). “The Interdisciplinary War Machine”. in <hi rend="italic">Local Transcendence: Essays on Postmodern Historicism and Database</hi>. 169-85. Chicago: University of Chicago Press.</bibl>
+<bibl><hi rend="bold">McCarty, W. </hi> (2006). “Tree, Turf, Centre, Archipelago &#8212; or Wild Acre? Metaphors and Stories for Humanities Computing”. <hi rend="italic">Literary and Linguistic Computing</hi> 21(1). 1-13.</bibl>
+<bibl><hi rend="bold">Nardi, B. A. </hi> (2010). <hi rend="italic">My Life as a Night Elf Priest</hi>. Ann Arbor: University of Michigan Press.</bibl>
+<bibl><hi rend="bold">Rorty, R. </hi> (1979). <hi rend="italic">Philosophy and the Mirror of Nature</hi>. Princeton: Princeton University Press.</bibl>
+<bibl><hi rend="bold">Strober, M.</hi> (2010). <hi rend="italic">Interdisciplinary Conversations: Challenging Habits of Thought</hi>. Stanford: Stanford University Press.</bibl>
+
+</listBibl>
+</div>
+</back>
+</text>
+</TEI>
+
