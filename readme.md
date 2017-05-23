@@ -4,7 +4,9 @@ Mostly for my students to access, my ability to fork this later, and for anyone 
 
 Class sessions are on Wednesday evenings, so updated lecture notebooks can be expected sometime then.  You'll see me crafting outlines and stub files until class time.
 
-All course contents are CCBY. 
+All course contents are CCBY.  Please let me know where/how you've used them, as I'd also like to add those links to these materials.  
+
+I will also now be depositing this into Zenodo now that the semester is complete.  
 
 Textbooks:
 
