@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/79269779.svg)](https://zenodo.org/badge/latestdoi/79269779)
+
 # A public repo for the my Spring 2017 LIS452LE lecture notes
 
 Mostly for my students to access, my ability to fork this later, and for anyone wishing to follow along at home.  This is an introduction to programming course for library and information science and information management graduate students at the Illinois iSchool.
